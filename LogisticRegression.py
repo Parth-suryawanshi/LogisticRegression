@@ -8,8 +8,8 @@ import pandas as pd
 import streamlit as st
 import pickle
 import numpy as np
-LogisticRegression=open("classifier.pkl","rb")
-model=pickle.load(LogisticRegression)
+with open("classifier.pkl", "rb") as f:
+    model = pickle.load(f)
 # Title
 st.title("🚢 Titanic Survival Prediction")
 
