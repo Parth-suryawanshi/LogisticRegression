@@ -8,8 +8,8 @@ import pandas as pd
 import streamlit as st
 import pickle
 import numpy as np
-load=open('classifier.pkl','rb')
-model=pickle.load(load)
+Start=open("classifier.pkl','rb')
+model=pickle.load(Start)
 # Title
 st.title("🚢 Titanic Survival Prediction")
 
