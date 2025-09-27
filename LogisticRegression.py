@@ -6,6 +6,7 @@ Created on Tue Sep 23 17:32:01 2025
 """
 import pandas as pd
 import streamlit as st
+import sklearn 
 import pickle
 import numpy as np
 with open("classifier.pkl", "rb") as f:
