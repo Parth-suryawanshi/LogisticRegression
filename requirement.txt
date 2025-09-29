@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Sep 27 13:08:51 2025
+
+@author: PARTH
+"""
+streamlit
+scikit-learn
+
+pandas
+numpy
+matplotlib
+seaborn
+sklearn
